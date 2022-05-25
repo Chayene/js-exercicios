@@ -1,0 +1,41 @@
+ body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ligada{
+  height:600px;
+  width: 100%;
+  background-image: url("imagem/ligada.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center; 
+  
+}
+.desligada{
+  height:600px;
+  width: 100%;
+  background-image: url("imagem/apagada.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center; 
+}
+
+#acender_apagar{
+  border-radius: 20px;
+  text-align: center;
+  background-color:aliceblue;
+  height: 50px;
+  width: 15%;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+
+
+
